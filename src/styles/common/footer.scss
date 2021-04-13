@@ -1,0 +1,31 @@
+.list-group, .list-group-item {
+
+}
+
+.list-group {
+}
+
+.list-group-item {
+}
+
+.footer {
+  color : white;
+}
+
+.footer_li-gr, .footer_li-gr-item, .footer-h {
+  color      : white;
+  background : none;
+  border     : none;
+}
+
+.footer-c {
+  background: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  span {
+    display: inline-block;
+  }
+}
+
