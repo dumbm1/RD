@@ -1,4 +1,9 @@
 @import "../mixins/media";
+@import "../mixins/fonts";
+
+@include font-face('Myriad Pro Light SemiExtended', '../fonts/myriad-pro/MyriadPro-LightSemiExt', 300, normal);
+@include font-face('Myriad Pro Regular', '../fonts/myriad-pro/MyriadPro-Regular', 400, normal);
+@include font-face('Myriad Pro SemiBold', '../fonts/myriad-pro/MyriadPro-Semibold', 600, normal);
 
 html, body {
   width  : 100%;
@@ -10,6 +15,15 @@ html, body {
     grid-template-rows    : auto 1fr auto;
     grid-template-columns : 100%;
   }
+}
+
+body {
+  font-family : 'Myriad Pro Light SemiExtended';
+  font-size   : 1rem;
+  line-height : normal;
+  font-style  : normal;
+  font-weight : 300;
+  color: black;
 }
 
 .container-xxl {
@@ -38,23 +52,29 @@ html, body {
 .list-group-item {
   padding : 0;
 }
-.link{
-  text-decoration: none;
-  transition-property: color;
-  transition-duration: .8s;
+
+.link {
+  text-decoration     : none;
+  transition-property : color;
+  transition-duration : .8s;
 }
-.link:hover{
-  text-decoration: none;
+
+.link:hover {
+  text-decoration : none;
 }
-.link-wh{
-  color: white;
-  &:hover{
-    color: gray;
+
+.link-wh {
+  color : white;
+
+  &:hover {
+    color : gray;
   }
 }
-.link-k{
-  color: black;
+
+.link-k {
+  color : black;
 }
-.lonk-gray{
-  color: #7c7c7c;
+
+.lonk-gray {
+  color : #7c7c7c;
 }

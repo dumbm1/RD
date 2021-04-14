@@ -12,20 +12,46 @@
   color : white;
 }
 
-.footer_li-gr, .footer_li-gr-item, .footer-h {
+.footer_li-gr, .footer_li-gr-item {
   color      : white;
   background : none;
   border     : none;
 }
+.footer_li-gr-item{
+  margin-bottom: 0.27rem;
+}
+
+.footer-menu {
+  padding-top    : 5.6rem;
+  padding-bottom : 5.6rem;
+}
+
+.footer-menu__h {
+  color     : #666666;
+  font-size : 1.5rem;
+  margin-bottom: 1.9rem;
+}
+
+.footer-menu__col {
+  padding-left : 6.4rem;
+}
+
+.footer-menu__contacts-ul {
+  margin-top    : 0.5rem;
+  margin-bottom : 0.5rem;
+  list-style    : none;
+  padding-left  : 0;
+}
 
 .footer-c {
-  background: black;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+  background      : black;
+  color           : white;
+  display         : flex;
+  align-items     : center;
+  justify-content : space-between;
+
   span {
-    display: inline-block;
+    display : inline-block;
   }
 }
 
