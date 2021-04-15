@@ -1,6 +1,18 @@
 // two mixins for xxl devices
 // define in global.scss and use in the index.pug
 
+@mixin _less-than_1399-98 {
+  @media (max-width : 1399.98px) {
+    @content;
+  }
+}
+
+@mixin _more-than_1400 {
+  @media (min-width : 1400px) {
+    @content;
+  }
+}
+
 @mixin _less-than_1569-98 {
   @media (max-width : 1569.98px) {
     @content;
